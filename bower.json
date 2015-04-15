@@ -1,0 +1,23 @@
+{
+  "name": "SE2BIB",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [
+    "Tom Rosier tom.rosier92@gmail.com"
+  ],
+  "description": "Convert Stack Exchange to BIB",
+  "main": "index.html",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.0",
+    "jquery": "~2.1.1"
+  }
+}
