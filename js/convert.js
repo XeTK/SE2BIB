@@ -49,7 +49,7 @@ function incrementPercentage(type) {
 }
 
 function urlToRef(url) {
-	var rgx = /^(?:http[|s]:\/\/)?(.{0,30})\.com\/(\w{0,20})\/(\d{0,9})\/[\d\w\-]*/g;
+	var rgx = /^(?:http(?:s)?:\/\/)?(.{0,30})\.com\/(\w{0,20})\/(\d{0,9})\/[\d\w\-]*/g;
 
 	var groups = rgx.exec(url);
 
